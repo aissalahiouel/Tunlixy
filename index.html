@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TunLix - Tunisian Movies and Series</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo" id="logo">
+            <img src="./SRC/LOGO.png" alt="TunLix Logo">
+        </div>
+        <h1 id="title">TUNLIX</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#search">Search</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <section id="home">
+        <h2>WELCOME TO TUNLIX</h2>
+    </section>
+
+    <section id="genres">
+        <h2>GENRES</h2>
+        <div class="genre-list">
+            <a href="drama.html" class="genre">Drama</a>
+            <a href="action.html" class="genre">Action</a>
+            <a href="horror.html" class="genre">Horror</a>
+            <a href="trending.html" class="genre">Trending</a>
+            <a href="fantasy.html" class="genre">Fantasy</a>
+            <a href="historical.html" class="genre">Historical</a>
+            <a href="comedy.html" class="genre">Comedy</a>
+            <a href="crime.html" class="genre">Crime</a>
+            <a href="adult.html" class="genre">Adult</a>
+            <a href="documentary.html" class="genre">Documentary</a>
+            <a href="musical.html" class="genre">Musical</a>
+            <a href="Historicalfantasy.html" class="genre">Historical Fantasy</a>
+            <a href="fantasyoftime.html" class="genre">Fantasy Of Time</a>
+            <a href="fantasyoflocation.html" class="genre">Fantasy Of Location</a>
+            <a href="adapteddrama.html" class="genre">Adapted Drama</a>
+            <a href="co_produceddrama.html" class="genre">Co_Produced Drama</a>
+            <a href="Ramadan2025.html" class="genre">Ramadan 2025 </a>
+            <a href="dark.html" class="genre">Dark </a>
+        </div>
+    </section>
+    <section id="search">
+        <h2>SEARCH</h2>
+        <input type="text" id="searchInput" placeholder="Enter your title">
+        <button onclick="searchMovie()">Search <span class="search-icon">&#128269;</span></button>
+    </section>
+    <section id="satisfaction">
+        <div class="satisfaction">
+            <h3>RATE YOUR SATISFACTION</h3>
+            <div class="stars">
+                <span class="star" data-value="1">&#9734;</span>
+                <span class="star" data-value="2">&#9734;</span>
+                <span class="star" data-value="3">&#9734;</span>
+                <span class="star" data-value="4">&#9734;</span>
+                <span class="star" data-value="5">&#9734;</span>
+            </div>
+        </div> 
+    </section>
+    <footer>
+       <p>&copy; 2025 TunLix. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
